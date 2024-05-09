@@ -37,6 +37,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     padding: 10px 15px;
+    gap: 20px;
 }
 
 .main-txt{
@@ -58,7 +59,8 @@ nav ul li {
     width:80%;
     font-size: 70px;
     font-weight: 700;
-    border: 1px solid red;
+    margin-left: 25px;
+    /* border: 1px solid red; */
     padding: 0 10px;
 }
 
@@ -66,3 +68,10 @@ nav ul li {
     color: red;
 }
 
+button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: rgb(242, 97, 63);
+    background-color: rgb(254, 185, 65);
+}
