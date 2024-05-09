@@ -75,3 +75,13 @@ button{
     color: rgb(242, 97, 63);
     background-color: rgb(254, 185, 65);
 }
+
+.top-btn{
+    /* border: 1px solid red; */
+    /* width: 5%; */
+    position: fixed;
+    /* display: inline; */
+    bottom: 30px;
+    right:0px;
+    border-radius: 50%;
+}
