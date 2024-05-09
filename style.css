@@ -3,5 +3,32 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Gilroy";
+}
+
+body{
     background-color: rgb(253, 228, 158);
+}
+
+.Container{
+    height: 1000px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+}
+
+
+nav ul li{
+    display: inline;
+    margin: 3vh;
+
 }
