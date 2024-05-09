@@ -1,33 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Gilroy";
 }
 
-body{
+body {
     background-color: rgb(253, 228, 158);
 }
 
-.Container{
+.Container {
     height: 1000px;
 }
 
-nav{
+nav {
     background-color: black;
     color: white;
     height: 10vh;
     width: 100%;
-    position: fixed;
+    /* margin-bottom: 10px; */
+    position: sticky;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: end;
 }
 
 
-nav ul li{
+.main {
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.main-txt{
+    font-size: 50px;
+}
+
+nav ul li {
     display: inline;
     margin: 3vh;
 
