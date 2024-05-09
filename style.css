@@ -18,8 +18,9 @@ nav {
     color: white;
     height: 10vh;
     width: 100%;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
     position: sticky;
+    top:0;
 }
 
 nav ul {
@@ -29,18 +30,26 @@ nav ul {
 
 
 .main {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80%;
     margin: auto;
     margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
 }
 
 .main-txt{
-    font-size: 50px;
+    font-size: 80px;
+    font-weight: 800;
 }
 
 nav ul li {
     display: inline;
     margin: 3vh;
 
+}
+
+.main-img img{
+    border-radius: 5px;
 }
