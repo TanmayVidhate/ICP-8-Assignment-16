@@ -29,7 +29,7 @@ nav ul {
 }
 
 
-.main {
+.main,.main-2{
     /* border: 1px solid red; */
     width: 80%;
     margin: auto;
